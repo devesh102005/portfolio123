@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devesh Bawniya - Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font - Inter */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6; /* Light gray background */
+            color: #333; /* Dark text color */
+        }
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-lg fixed w-full z-10 top-0">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="#hero" class="text-2xl font-bold text-indigo-600 rounded-lg p-2 hover:bg-indigo-50 transition duration-300">Devesh Bawniya</a>
+            <div class="space-x-4">
+                <a href="#about" class="text-gray-600 hover:text-indigo-600 transition duration-300 rounded-lg px-3 py-2 hover:bg-indigo-50">About</a>
+                <a href="#skills" class="text-gray-600 hover:text-indigo-600 transition duration-300 rounded-lg px-3 py-2 hover:bg-indigo-50">Skills & Resume</a>
+                <a href="#projects" class="text-gray-600 hover:text-indigo-600 transition duration-300 rounded-lg px-3 py-2 hover:bg-indigo-50">Projects</a>
+                <a href="#contact" class="text-gray-600 hover:text-indigo-600 transition duration-300 rounded-lg px-3 py-2 hover:bg-indigo-50">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section (View Profile) -->
+    <section id="hero" class="relative bg-gradient-to-r from-indigo-500 to-purple-600 text-white h-screen flex items-center justify-center p-6 pt-20">
+        <div class="text-center max-w-4xl mx-auto">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/056/002/859/small_2x/flat-business-avatar-illustration-professional-faceless-male-icon-in-suit-and-tie-free-vector.jpg"  class="rounded-full w-48 h-48 mx-auto mb-6 border-4 border-white shadow-lg object-cover">
+            <h1 class="text-5xl md:text-6xl font-extrabold mb-4 leading-tight">Hello, I'm <span class="text-yellow-300">Devesh Bawniya</span></h1>
+            <p class="text-xl md:text-2xl mb-8 font-light">A passionate learner | Robotics and automation Engineer </p>
+            <a href="#contact" class="bg-white text-indigo-700 hover:bg-gray-200 px-8 py-4 rounded-full text-lg font-semibold shadow-lg transition duration-300 transform hover:scale-105">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-20 bg-white shadow-inner">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <h2 class="text-4xl font-bold text-center text-indigo-700 mb-12">About Me</h2>
+            <div class="bg-gray-50 p-8 rounded-2xl shadow-xl border border-gray-200">
+                <p class="text-lg leading-relaxed text-gray-700 mb-4">
+                    Greetings! I'm Devesh Bawniya, a dedicated and enthusiastic learner. My journey in technology began with a curiosity for how things work, evolving into a passion for creating seamless and impactful digital experiences.
+                </p>
+                <p class="text-lg leading-relaxed text-gray-700">
+                    We are a team of passionate and innovative robotics engineers dedicated to pushing the boundaries of automation and artificial intelligence. With expertise spanning mechanical design, electronics, software development, and control systems, we specialize in creating intelligent robotic solutions that address complex challenges across various industries. From designing sophisticated industrial automation systems to developing cutting-edge autonomous vehicles and collaborative robots, our mission is to leverage the power of robotics to enhance efficiency, safety, and productivity for a better tomorrow. We thrive on problem-solving and are committed to delivering reliable, high-performance robotic systems that transform the way we live and work.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Resume & Skills Section -->
+    <section id="skills" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <h2 class="text-4xl font-bold text-center text-indigo-700 mb-12">Skills & Resume</h2>
+
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <!-- Skills -->
+                <div class="bg-white p-8 rounded-2xl shadow-xl border border-gray-200">
+                    <h3 class="text-3xl font-semibold text-gray-800 mb-6 text-center">My Skills</h3>
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                        <span class="bg-indigo-100 text-indigo-800 px-4 py-2 rounded-full text-sm font-medium text-center shadow-sm">HTML5</span>
+                        <span class="bg-indigo-100 text-indigo-800 px-4 py-2 rounded-full text-sm font-medium text-center shadow-sm">CSS</span>
+                        <span class="bg-indigo-100 text-indigo-800 px-4 py-2 rounded-full text-sm font-medium text-center shadow-sm">Git & GitHub</span>
+                        <span class="bg-indigo-100 text-indigo-800 px-4 py-2 rounded-full text-sm font-medium text-center shadow-sm">Tailwind CSS</span>
+                        <span class="bg-indigo-100 text-indigo-800 px-4 py-2 rounded-full text-sm font-medium text-center shadow-sm">Problem Solving</span>
+                    </div>
+                </div>
+
+                <!-- Resume Download -->
+                <div class="bg-white p-8 rounded-2xl shadow-xl border border-gray-200 text-center">
+                    <h3 class="text-3xl font-semibold text-gray-800 mb-6">Download My Resume</h3>
+                    <p class="text-gray-700 mb-8">
+                        Get a detailed overview of my experience, education, and qualifications.
+                    </p>
+                    <a href="https://example.com/devesh_bawniya_resume.pdf" target="_blank" class="inline-flex items-center bg-indigo-600 text-white hover:bg-indigo-700 px-8 py-4 rounded-full text-lg font-semibold shadow-lg transition duration-300 transform hover:scale-105">
+                        <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                        Download Resume
+                    </a>
+                    <p class="text-sm text-gray-500 mt-4"> (Link is a placeholder for demonstration purposes) </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-white shadow-inner">
+        <div class="container mx-auto px-6 max-w-6xl">
+            <h2 class="text-4xl font-bold text-center text-indigo-700 mb-12">My Projects</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+                <!-- Project Card 1 -->
+                <div class="bg-gray-50 rounded-2xl shadow-xl overflow-hidden border border-gray-200 transform hover:scale-105 transition duration-300">
+                    <img src="https://miro.medium.com/v2/resize:fit:1200/1*_6ooq0R60ba3UT5c-QVemA.png" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-3">Tailwind css</h3>
+                        <p class="text-gray-700 mb-4">
+                          Developed and styled a website using tailwindcss
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full">tailwindcss</span>
+                            <span class="bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full">Html</span>
+                            <span class="bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full">Git Hub</span>
+                        </div>
+                        <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium inline-flex items-center">
+                            View Project
+                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="bg-gray-50 rounded-2xl shadow-xl overflow-hidden border border-gray-200 transform hover:scale-105 transition duration-300">
+                    <img src="https://tse2.mm.bing.net/th/id/OIP.1X7fvOmTp3ONMDAx4jGG9AHaFL?rs=1&pid=ImgDetMain&o=7&rm=3" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-3">Git Hub</h3>
+                        <p class="text-gray-700 mb-4">
+                           Hoat a website on git hub
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full">git hub</span>
+                            <span class="bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full">Tailwind CSS</span>
+                        </div>
+                        <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium inline-flex items-center">
+                            View Project
+                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="bg-gray-50 rounded-2xl shadow-xl overflow-hidden border border-gray-200 transform hover:scale-105 transition duration-300">
+                    <img src="https://st2.depositphotos.com/1032577/6582/i/950/depositphotos_65828845-stock-photo-portfolio-written-on-notebook.jpg" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-3">Portfolio</h3>
+                        <p class="text-gray-700 mb-4">
+                          Made a portfolio using tailwind css
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full">css</span>
+                            <span class="bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full">tailwind css</span>
+                            
+                        </div>
+                        <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium inline-flex items-center">
+                            View Project
+                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+     <section id="contact" class="bg-gray-900 text-white py-16 px-6 md:px-20">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-4xl font-bold mb-4">Contact Me</h2>
+    <p class="text-gray-400 mb-10">Have a question or want to work together? Fill out the form below or email me directly.</p>
+
+    <form class="space-y-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <input type="text" placeholder="Your Name" class="w-full p-3 rounded-lg bg-gray-800 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+        <input type="email" placeholder="Your Email" class="w-full p-3 rounded-lg bg-gray-800 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+      </div>
+      <textarea placeholder="Your Message" rows="5" class="w-full p-3 rounded-lg bg-gray-800 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500" required></textarea>
+      
+      <!-- Send Message Button -->
+      <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 shadow-lg">
+        Send Message
+      </button>
+    </form>
+  </div>
+</section>
+    <section id="contact" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <h2 class="text-4xl font-bold text-center text-indigo-700 mb-12">Contact Me</h2>
+            <div class="bg-white p-8 rounded-2xl shadow-xl border border-gray-200">
+                <p class="text-center text-lg text-gray-700 mb-8">
+                    I'm always open to new opportunities, collaborations, and discussions. Feel free to reach out!
+                </p>
+                <div class="flex flex-col md:flex-row justify-center items-center gap-8">
+                    <div class="text-center">
+                        <a href="mailto:devesh.bawniya@example.com" class="inline-flex flex-col items-center text-indigo-600 hover:text-indigo-800 transition duration-300">
+                            <svg class="w-12 h-12 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-2 4v7a2 2 0 01-2 2H7a2 2 0 01-2-2v-7m3.45-4.16a2 2 0 012.22 0L21 8"></path></svg>
+                            <span class="text-lg font-medium">deveshbawniya@gmail.com</span>
+                        </a>
+                    </div>
+                    <div class="text-center">
+                        <a href="tel:+1234567890" class="inline-flex flex-col items-center text-indigo-600 hover:text-indigo-800 transition duration-300">
+                            <svg class="w-12 h-12 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                            <span class="text-lg font-medium">+91 7828067754</span>
+                        </a>
+                    </div>
+                    <div class="text-center">
+                        <a href="https://linkedin.com/in/devesh-bawniya" target="_blank" class="inline-flex flex-col items-center text-indigo-600 hover:text-indigo-800 transition duration-300">
+                            <svg class="w-12 h-12 mb-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5S0 4.881 0 3.5C0 2.12 1.11 1 2.5 1S4.98 2.12 4.98 3.5zm-2.48 4.5c-1.38 0-2.5 1.12-2.5 2.5v10c0 1.38 1.12 2.5 2.5 2.5h10c1.38 0 2.5-1.12 2.5-2.5v-10c0-1.38-1.12-2.5-2.5-2.5h-10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 1.12-2.5 2.5-2.5h10c1.38 0 2.5 1.12 2.5 2.5v10zM12 15.5c0 1.38-1.12 2.5-2.5 2.5h-10c-1.38 0-2.5-1.12-2.5-2.5v-10c0-1.38 
